@@ -1,1 +1,102 @@
-/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootstrap.css";
+@import "font-awesome/css/font-awesome.css";
+@import 'animate.css';
+
+/*Download resume*/
+.downloadBtn {
+  background: orange;
+}
+
+/*Card*/
+.card {
+  max-height: 20rem;
+  min-height: 20rem;
+  width: 18rem;
+  overflow: clip;
+  margin-top: 1rem;
+}
+
+.experience {
+  cursor: pointer;
+  :hover {
+    box-shadow: 0 0 5px orange;
+  }
+}
+
+.skillSection {
+  .card {
+    max-height: 17rem;
+    min-height: 17rem;
+    width: 10rem;
+  }
+}
+.card-img-top {
+  width: auto;
+  height: 150px;
+}
+.card-img-container {
+  text-align: center;
+}
+.card-img-top-skill {
+  width: auto;
+  height: 150px;
+}
+
+.profilePhoto {
+  margin: 10px auto 30px auto;
+  position: relative;
+}
+
+.animated-button {
+  :hover {
+    background-color: orange;
+    box-shadow: 0 0 20px -18px;
+  }
+
+  :active {
+    transform: scale(0.95);
+  }
+}
+
+/*SweetAlert*/
+.swal2-confirm.swal2-styled {
+  background: orange;
+}
+
+.menuItem:hover {
+      text-decoration: underline;
+}
+
+/*Tabs*/
+.tabs {
+  .index {
+    cursor: pointer;
+    display: flex;
+    margin-top: 1rem;
+    * {
+      border: 1px solid #ccc;
+      background: #EEE;
+      padding: 4px 12px;
+      border-radius: 4px 4px 0 0;
+      position: relative;
+      top: 1px;
+    }
+    .active {
+      background: #FFF;
+      border-bottom: 1px solid transparent;
+    }
+  }
+  .contents {
+    border: 1px solid #ccc;
+    min-height: 120px;
+    padding: 12px;
+  }
+}
+
+/*Footer icon*/
+.linkedinIcon, .githubIcon {
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  :hover {
+    text-decoration: underline;
+  }
+}
