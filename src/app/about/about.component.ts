@@ -28,7 +28,7 @@ constructor() {
           html:`<p style="text-align: left">Commenced my professional journey with the Warner Music Group IT department
             in 2016, where I undertook the responsibility of enhancing the performance of existing <strong>AngularJS</strong> web applications.
             <p style="text-align: left">Being a <strong>Certified Scrum Master</strong> in my team, I took charge of organizing daily stand-up meetings, and strategic planning for upcoming tasks within our structured two-week Sprint cycle.
-            Throughout my time here, I mastered multiple Frontend development related skills: <strong>AngularJS version 1,7 and 10, Bootstrap version 3 and 5,
+            Throughout my time here, I mastered multiple Frontend development related skills: <strong>AngularJS version 1,10 and 17, Bootstrap version 3 and 5,
             NodeJS, PHP and MySQL</strong> to name a few.</p>`,
           showClass: {
             popup: `
