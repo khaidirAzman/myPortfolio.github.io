@@ -1,0 +1,577 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "@angular/animations": "^17.0.0",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
+    "@angular/router": "^17.0.0",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.7.1",
+    "popper": "^1.0.1",
+    "rxjs": "~7.8.0",
+    "sweetalert2": "^11.10.1",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.2",
+    "@angular-devkit/build-angular": "^17.0.5",
+    "@angular-eslint/builder": "17.1.1",
+    "@angular-eslint/eslint-plugin": "17.1.1",
+    "@angular-eslint/eslint-plugin-template": "17.1.1",
+    "@angular-eslint/schematics": "17.1.1",
+    "@angular-eslint/template-parser": "17.1.1",
+    "@angular/cli": "^17.0.5",
+    "@angular/compiler-cli": "^17.0.0",
+    "@types/jasmine": "~5.1.0",
+    "@typescript-eslint/eslint-plugin": "6.13.1",
+    "@typescript-eslint/parser": "6.13.1",
+    "eslint": "^8.54.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.2.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "14645878845883387518"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13044518069027839699"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "5331566439708925252"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17038929134016848735"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "5336636969995539451"
+      },
+      {
+        "file": "README.md",
+        "hash": "5686474778589559918"
+      },
+      {
+        "file": "angular.json",
+        "hash": "14630749612927209332"
+      },
+      {
+        "file": "docs/3rdpartylicenses.txt",
+        "hash": "3734727330098641488"
+      },
+      {
+        "file": "docs/assets/favicon_io/android-chrome-192x192.png",
+        "hash": "8713434235766123189"
+      },
+      {
+        "file": "docs/assets/favicon_io/android-chrome-512x512.png",
+        "hash": "10206478962795998856"
+      },
+      {
+        "file": "docs/assets/favicon_io/apple-touch-icon.png",
+        "hash": "655321236887618588"
+      },
+      {
+        "file": "docs/assets/favicon_io/favicon-16x16.png",
+        "hash": "13525129989839764403"
+      },
+      {
+        "file": "docs/assets/favicon_io/favicon-32x32.png",
+        "hash": "1553270910350796611"
+      },
+      {
+        "file": "docs/assets/favicon_io/favicon.ico",
+        "hash": "17732129249310404952"
+      },
+      {
+        "file": "docs/assets/favicon_io/site.webmanifest",
+        "hash": "11205980641497128048"
+      },
+      {
+        "file": "docs/assets/img/KA.png",
+        "hash": "11570578408890404008"
+      },
+      {
+        "file": "docs/assets/img/airmaster.jpg",
+        "hash": "6555344348270867532"
+      },
+      {
+        "file": "docs/assets/img/ihome.png",
+        "hash": "5809074756507697965"
+      },
+      {
+        "file": "docs/assets/img/isitv.jpeg",
+        "hash": "13890959046366635687"
+      },
+      {
+        "file": "docs/assets/img/iut.jpg",
+        "hash": "10330314748879359840"
+      },
+      {
+        "file": "docs/assets/img/khaidir.png",
+        "hash": "2099307207039740572"
+      },
+      {
+        "file": "docs/assets/img/logoSection/angular.png",
+        "hash": "11767137093805616242"
+      },
+      {
+        "file": "docs/assets/img/logoSection/bootstrap.png",
+        "hash": "3596166714072449283"
+      },
+      {
+        "file": "docs/assets/img/logoSection/csm.png",
+        "hash": "8151309884951714300"
+      },
+      {
+        "file": "docs/assets/img/logoSection/css.png",
+        "hash": "11514148517718066362"
+      },
+      {
+        "file": "docs/assets/img/logoSection/github.png",
+        "hash": "9971590962981741472"
+      },
+      {
+        "file": "docs/assets/img/logoSection/jenkins.png",
+        "hash": "17925506406216742727"
+      },
+      {
+        "file": "docs/assets/img/logoSection/language.jpg",
+        "hash": "8817343759728830675"
+      },
+      {
+        "file": "docs/assets/img/logoSection/less.png",
+        "hash": "17909625333894462481"
+      },
+      {
+        "file": "docs/assets/img/logoSection/nodejs.png",
+        "hash": "2255745240638072688"
+      },
+      {
+        "file": "docs/assets/img/manulife.jpeg",
+        "hash": "359798200333440643"
+      },
+      {
+        "file": "docs/assets/img/mfi.jpg",
+        "hash": "123820559143090597"
+      },
+      {
+        "file": "docs/assets/img/mozac.JPG",
+        "hash": "18332678759601373538"
+      },
+      {
+        "file": "docs/assets/img/wmg.jpg",
+        "hash": "10766429934345832443"
+      },
+      {
+        "file": "docs/browser/assets/favicon_io/android-chrome-192x192.png",
+        "hash": "8713434235766123189"
+      },
+      {
+        "file": "docs/browser/assets/favicon_io/android-chrome-512x512.png",
+        "hash": "10206478962795998856"
+      },
+      {
+        "file": "docs/browser/assets/favicon_io/apple-touch-icon.png",
+        "hash": "655321236887618588"
+      },
+      {
+        "file": "docs/browser/assets/favicon_io/favicon-16x16.png",
+        "hash": "13525129989839764403"
+      },
+      {
+        "file": "docs/browser/assets/favicon_io/favicon-32x32.png",
+        "hash": "1553270910350796611"
+      },
+      {
+        "file": "docs/browser/assets/favicon_io/favicon.ico",
+        "hash": "17732129249310404952"
+      },
+      {
+        "file": "docs/browser/assets/favicon_io/site.webmanifest",
+        "hash": "11205980641497128048"
+      },
+      {
+        "file": "docs/browser/assets/img/KA.png",
+        "hash": "11570578408890404008"
+      },
+      {
+        "file": "docs/browser/assets/img/airmaster.jpg",
+        "hash": "6555344348270867532"
+      },
+      {
+        "file": "docs/browser/assets/img/ihome.png",
+        "hash": "5809074756507697965"
+      },
+      {
+        "file": "docs/browser/assets/img/isitv.jpeg",
+        "hash": "13890959046366635687"
+      },
+      {
+        "file": "docs/browser/assets/img/iut.jpg",
+        "hash": "10330314748879359840"
+      },
+      {
+        "file": "docs/browser/assets/img/khaidir.png",
+        "hash": "2099307207039740572"
+      },
+      {
+        "file": "docs/browser/assets/img/logoSection/angular.png",
+        "hash": "11767137093805616242"
+      },
+      {
+        "file": "docs/browser/assets/img/logoSection/bootstrap.png",
+        "hash": "3596166714072449283"
+      },
+      {
+        "file": "docs/browser/assets/img/logoSection/csm.png",
+        "hash": "8151309884951714300"
+      },
+      {
+        "file": "docs/browser/assets/img/logoSection/css.png",
+        "hash": "11514148517718066362"
+      },
+      {
+        "file": "docs/browser/assets/img/logoSection/github.png",
+        "hash": "9971590962981741472"
+      },
+      {
+        "file": "docs/browser/assets/img/logoSection/jenkins.png",
+        "hash": "17925506406216742727"
+      },
+      {
+        "file": "docs/browser/assets/img/logoSection/language.jpg",
+        "hash": "8817343759728830675"
+      },
+      {
+        "file": "docs/browser/assets/img/logoSection/less.png",
+        "hash": "17909625333894462481"
+      },
+      {
+        "file": "docs/browser/assets/img/logoSection/nodejs.png",
+        "hash": "2255745240638072688"
+      },
+      {
+        "file": "docs/browser/assets/img/manulife.jpeg",
+        "hash": "359798200333440643"
+      },
+      {
+        "file": "docs/browser/assets/img/mfi.jpg",
+        "hash": "123820559143090597"
+      },
+      {
+        "file": "docs/browser/assets/img/mozac.JPG",
+        "hash": "18332678759601373538"
+      },
+      {
+        "file": "docs/browser/assets/img/wmg.jpg",
+        "hash": "10766429934345832443"
+      },
+      {
+        "file": "docs/browser/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "docs/browser/index.html",
+        "hash": "17360586781857760579"
+      },
+      {
+        "file": "docs/browser/main-BB7CQ5FG.js",
+        "hash": "6648675970769923214"
+      },
+      {
+        "file": "docs/browser/media/fontawesome-webfont-3KIJVIEY.svg",
+        "hash": "8108736501744721653"
+      },
+      {
+        "file": "docs/browser/media/fontawesome-webfont-5GKVPAEF.woff2",
+        "hash": "13033773006513016446"
+      },
+      {
+        "file": "docs/browser/media/fontawesome-webfont-FMJ3VJ65.eot",
+        "hash": "3947604408082228486"
+      },
+      {
+        "file": "docs/browser/media/fontawesome-webfont-RJ6LE7IU.ttf",
+        "hash": "6533727258474908816"
+      },
+      {
+        "file": "docs/browser/media/fontawesome-webfont-Z4ARLA73.woff",
+        "hash": "8138171527562931075"
+      },
+      {
+        "file": "docs/browser/polyfills-LZBJRJJE.js",
+        "hash": "5941810377592141465"
+      },
+      {
+        "file": "docs/browser/styles-F3H6RG2F.css",
+        "hash": "15655671039487005477"
+      },
+      {
+        "file": "docs/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "docs/index.html",
+        "hash": "17360586781857760579"
+      },
+      {
+        "file": "docs/main-BB7CQ5FG.js",
+        "hash": "6648675970769923214"
+      },
+      {
+        "file": "docs/media/fontawesome-webfont-3KIJVIEY.svg",
+        "hash": "8108736501744721653"
+      },
+      {
+        "file": "docs/media/fontawesome-webfont-5GKVPAEF.woff2",
+        "hash": "13033773006513016446"
+      },
+      {
+        "file": "docs/media/fontawesome-webfont-FMJ3VJ65.eot",
+        "hash": "3947604408082228486"
+      },
+      {
+        "file": "docs/media/fontawesome-webfont-RJ6LE7IU.ttf",
+        "hash": "6533727258474908816"
+      },
+      {
+        "file": "docs/media/fontawesome-webfont-Z4ARLA73.woff",
+        "hash": "8138171527562931075"
+      },
+      {
+        "file": "docs/polyfills-LZBJRJJE.js",
+        "hash": "5941810377592141465"
+      },
+      {
+        "file": "docs/styles-F3H6RG2F.css",
+        "hash": "15655671039487005477"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "5720770465851949338"
+      },
+      {
+        "file": "package.json",
+        "hash": "3806489308747169443"
+      },
+      {
+        "file": "src/app/about/about.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/about/about.component.html",
+        "hash": "5608189271343253305"
+      },
+      {
+        "file": "src/app/about/about.component.ts",
+        "hash": "10520576558884851825"
+      },
+      {
+        "file": "src/app/app.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "10070925344900622273"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "9298989926075842356"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "5428614352870646528"
+      },
+      {
+        "file": "src/app/app.module.ts",
+        "hash": "14308996598012888692"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "2450764084782844609"
+      },
+      {
+        "file": "src/app/contact/contact.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/contact/contact.component.html",
+        "hash": "11046980839017003363"
+      },
+      {
+        "file": "src/app/contact/contact.component.ts",
+        "hash": "9416725331309101089"
+      },
+      {
+        "file": "src/app/home/home.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/home/home.component.html",
+        "hash": "13269317967120434324"
+      },
+      {
+        "file": "src/app/home/home.component.ts",
+        "hash": "11057129414930625254"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/favicon_io/android-chrome-192x192.png",
+        "hash": "8713434235766123189"
+      },
+      {
+        "file": "src/assets/favicon_io/android-chrome-512x512.png",
+        "hash": "10206478962795998856"
+      },
+      {
+        "file": "src/assets/favicon_io/apple-touch-icon.png",
+        "hash": "655321236887618588"
+      },
+      {
+        "file": "src/assets/favicon_io/favicon-16x16.png",
+        "hash": "13525129989839764403"
+      },
+      {
+        "file": "src/assets/favicon_io/favicon-32x32.png",
+        "hash": "1553270910350796611"
+      },
+      {
+        "file": "src/assets/favicon_io/favicon.ico",
+        "hash": "17732129249310404952"
+      },
+      {
+        "file": "src/assets/favicon_io/site.webmanifest",
+        "hash": "11205980641497128048"
+      },
+      {
+        "file": "src/assets/img/KA.png",
+        "hash": "11570578408890404008"
+      },
+      {
+        "file": "src/assets/img/airmaster.jpg",
+        "hash": "6555344348270867532"
+      },
+      {
+        "file": "src/assets/img/ihome.png",
+        "hash": "5809074756507697965"
+      },
+      {
+        "file": "src/assets/img/isitv.jpeg",
+        "hash": "13890959046366635687"
+      },
+      {
+        "file": "src/assets/img/iut.jpg",
+        "hash": "10330314748879359840"
+      },
+      {
+        "file": "src/assets/img/khaidir.png",
+        "hash": "2099307207039740572"
+      },
+      {
+        "file": "src/assets/img/logoSection/angular.png",
+        "hash": "11767137093805616242"
+      },
+      {
+        "file": "src/assets/img/logoSection/bootstrap.png",
+        "hash": "3596166714072449283"
+      },
+      {
+        "file": "src/assets/img/logoSection/csm.png",
+        "hash": "8151309884951714300"
+      },
+      {
+        "file": "src/assets/img/logoSection/css.png",
+        "hash": "11514148517718066362"
+      },
+      {
+        "file": "src/assets/img/logoSection/github.png",
+        "hash": "9971590962981741472"
+      },
+      {
+        "file": "src/assets/img/logoSection/jenkins.png",
+        "hash": "17925506406216742727"
+      },
+      {
+        "file": "src/assets/img/logoSection/language.jpg",
+        "hash": "8817343759728830675"
+      },
+      {
+        "file": "src/assets/img/logoSection/less.png",
+        "hash": "17909625333894462481"
+      },
+      {
+        "file": "src/assets/img/logoSection/nodejs.png",
+        "hash": "2255745240638072688"
+      },
+      {
+        "file": "src/assets/img/manulife.jpeg",
+        "hash": "359798200333440643"
+      },
+      {
+        "file": "src/assets/img/mfi.jpg",
+        "hash": "123820559143090597"
+      },
+      {
+        "file": "src/assets/img/mozac.JPG",
+        "hash": "18332678759601373538"
+      },
+      {
+        "file": "src/assets/img/wmg.jpg",
+        "hash": "10766429934345832443"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "18037726546490716834"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "4927504514031276065"
+      },
+      {
+        "file": "src/styles.css",
+        "hash": "14232160690888113507"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "17337579397915052279"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "8074232012119176151"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "15575553540147145788"
+      }
+    ]
+  }
+}
